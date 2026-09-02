@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripcion | Escuela de Tai Chi</title>
+    <!-- Vinculamos el CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- ===== MENÚ DE NAVEGACIÓN ===== -->
+    <header>
+        <div class="contenedor">
+            <div class="logo">
+                <h1>☯️ Tai Chi School</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="historia.html">La Escuela</a></li>
+                    <li><a href="talleres.html">Talleres</a></li>
+                    <li><a href="inscripcion.html" class="btn-inscribirse">Inscribirme</a></li>
+                </ul>
+                <!-- Botón para menú en celular (lo veremos luego) -->
+                <div class="menu-toggle">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== CONTENIDO PRINCIPAL ===== -->
+    <main>
+        <!-- Aquí va el contenido ÚNICO de cada página -->
+        <section class="contenido-texto">
+    <h1>Formulario de Inscripción</h1>
+    <p>Completa tus datos y nos pondremos en contacto para confirmar tu cupo.</p>
+    
+    <form action="#" method="POST" class="formulario-inscripcion">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+
+        <label for="taller">Taller al que deseas inscribirte:</label>
+        <select id="taller" name="taller">
+            <option value="principiantes">Tai Chi Principiantes</option>
+            <option value="intermedio">Tai Chi Intermedio</option>
+            <option value="chikung">Chi Kung</option>
+        </select>
+
+        <label for="mensaje">¿Algo que quieras contarnos?</label>
+        <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+        <button type="submit" class="btn-grande">Enviar inscripción</button>
+    </form>
+</section>
+    </main>
+
+    <!-- ===== PIE DE PÁGINA ===== -->
+    <footer>
+        <p>© 2025 Escuela de Tai Chi - Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- ===== INTEGRACIÓN DE BOTPRESS (va en TODAS las páginas) ===== -->
+        <script src="https://cdn.botpress.cloud/webchat/v3.7/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2026/07/31/20/20260731205848-A5TSFCWR.js" defer></script>
+
+    <!-- Nuestro script para el menú móvil -->
+    <script src="script.js"></script>
+</body>
+</html>

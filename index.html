@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Escuela de Tai Chi</title>
+    <!-- Vinculamos el CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- ===== MENÚ DE NAVEGACIÓN ===== -->
+    <header>
+        <div class="contenedor">
+            <div class="logo">
+                <h1>☯️ Tai Chi School</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="historia.html">La Escuela</a></li>
+                    <li><a href="talleres.html">Talleres</a></li>
+                    <li><a href="inscripcion.html" class="btn-inscribirse">Inscribirme</a></li>
+                </ul>
+                <!-- Botón para menú en celular (lo veremos luego) -->
+                <div class="menu-toggle">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== CONTENIDO PRINCIPAL ===== -->
+    <main>
+       <!-- Aquí va el contenido ÚNICO de cada página -->
+        <h1>Bienvenidos</h1>
+<!-- Video Hero (se reproduce solo y en silencio) -->
+<section class="video-hero">
+    <video autoplay muted loop playsinline>
+        <source src="videos/publicidad.mp4" type="video/mp4">
+        Tu navegador no soporta videos.
+    </video>
+    <div class="texto-sobre-video">
+        <h2>Encuentra tu equilibrio</h2>
+        <p>Descubre la armonía entre cuerpo y mente</p>
+        <a href="inscripcion.html" class="btn-grande">Quiero inscribirme</a>
+    </div>
+</section>
+
+<!-- Resumen de historia (gancho) -->
+<section class="resumen-historia">
+    <h3>Más de 10 años compartiendo la tradición</h3>
+    <p>Breve texto de 2 líneas sobre tu escuela... <a href="historia.html">Leer más →</a></p>
+</section>
+    </main>
+
+    <!-- ===== PIE DE PÁGINA ===== -->
+    <footer>
+        <p>© 2025 Escuela de Tai Chi - Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- ===== INTEGRACIÓN DE BOTPRESS (va en TODAS las páginas) ===== -->
+   
+        // Aquí vas a pegar el código de integración que te da Botpress.
+        // Normalmente es un script como este (ejemplo):
+        // (function(d, t) { ... })();
+        // Pégalo EXACTAMENTE como te lo da Botpress.
+    <script src="https://cdn.botpress.cloud/webchat/v3.7/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2026/07/31/20/20260731205848-A5TSFCWR.js" defer></script>
+   
+
+    <!-- Nuestro script para el menú móvil -->
+    <script src="script.js"></script>
+</body>
+</html>
