@@ -1,5 +1,6 @@
 /* RESETEO BÁSICO */
 * { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { overflow-x: hidden; }
 body { font-family: 'Segoe UI', sans-serif; background: #f9f9f9; color: #1e1e1e; }
 
 /* CONTENEDOR */
@@ -9,6 +10,7 @@ body { font-family: 'Segoe UI', sans-serif; background: #f9f9f9; color: #1e1e1e;
 header { background: #1a3c34; padding: 15px 0; }
 header .contenedor { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
 .logo h1 { color: #d4b68a; font-size: 1.5rem; }
+.logo-imagen { width: 42px; height: 42px; object-fit: cover; vertical-align: middle; border-radius: 50%; }
 .menu { display: flex; list-style: none; gap: 25px; }
 .menu a { color: white; text-decoration: none; font-weight: 500; }
 .menu a:hover { color: #d4b68a; }
@@ -35,6 +37,10 @@ header .contenedor { display: flex; justify-content: space-between; align-items:
 .btn-grande { background: #d4b68a; color: #1a3c34; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px; border: none; font-size: 1.1rem; cursor: pointer; }
 .btn-grande:hover { background: #e8d5b5; }
 .btn-pequeno { background: #1a3c34; color: white; padding: 8px 20px; border-radius: 30px; text-decoration: none; }
+
+/* CONTENIDO DE LA ESCUELA */
+.contenido-texto { padding: 30px 0; }
+.contenido-texto img { display: block; max-width: 100%; height: auto; margin: 20px auto; }
 
 /* TARJETAS DE TALLERES */
 .grid-talleres { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; margin: 30px 0; }
