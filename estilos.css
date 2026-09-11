@@ -37,6 +37,8 @@ header .contenedor { display: flex; justify-content: space-between; align-items:
 .btn-grande { background: #d4b68a; color: #1a3c34; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px; border: none; font-size: 1.1rem; cursor: pointer; }
 .btn-grande:hover { background: #e8d5b5; }
 .btn-pequeno { background: #1a3c34; color: white; padding: 8px 20px; border-radius: 30px; text-decoration: none; }
+.resumen-historia p + p { margin-top: 18px; }
+.resumen-historia .btn-inscribirse { display: inline-block; }
 
 /* CONTENIDO DE LA ESCUELA */
 .contenido-texto { padding: 30px 0; }
