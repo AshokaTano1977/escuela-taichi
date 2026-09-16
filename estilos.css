@@ -146,6 +146,13 @@ header .contenedor {
   border-radius: 30px;
   text-decoration: none;
 }
+.resumen-historia p + p {
+  margin-top: 18px;
+}
+.resumen-historia .btn-inscribirse {
+  display: inline-block;
+}
+
 
 /* CONTENIDO DE LA ESCUELA */
 .contenido-texto {
