@@ -42,4 +42,4 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll(".cupos-numero").forEach((span) => {
       if (span.textContent === "...") span.textContent = "—";
     });
-  });
+  }); })
