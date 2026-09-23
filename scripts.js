@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Cargar cupos dinámicos
   const CSV_URL =
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vTogDlkCoAsWFEBT1ZRxhV4seCQUfJ8MGxA5MHzt50yIPPEJiO4vVWUoC7CHbKcxDLJkkVcZD94rg40/pub?gid=1728784535&single=true&output=csv";
+   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTogDlkCoAsWFEBT1ZRxhV4seCQUfJ8MGxA5MHzt50yIPPEJiO4vVWUoC7CHbKcxDLJkkVcZD94rg40/pub?gid=1728784535&single=true&output=csv";
 
   fetch(CSV_URL)
   .then((response) => response.text())
