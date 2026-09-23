@@ -1,94 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Talleres | Escuela de Tai Chi Yang Ben</title>
     <!-- Vinculamos el CSS -->
-    <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
     <!-- ===== MENÚ DE NAVEGACIÓN ===== -->
     <header>
-        <div class="contenedor">
-            <div class="logo">
-                <h1><img src="imagenes/imagen2.jpeg" alt="" class="logo-imagen"> Escuela de Tai Chi Yang Ben</h1>
-            </div>
-            <nav>
-                <ul class="menu">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="historia.html">La Escuela</a></li>
-                    <li><a href="talleres.html">Talleres</a></li>
-                    <li><a href="inscripcion.html" class="btn-inscribirse">Inscribirme</a></li>
-                </ul>
-                <!-- Botón para menú en celular (lo veremos luego) -->
-                <div class="menu-toggle">☰</div>
-            </nav>
+      <div class="contenedor">
+        <div class="logo">
+          <h1>
+            <img src="imagenes/imagen2.jpeg" alt="" class="logo-imagen" />
+            Escuela de Tai Chi Yang Ben
+          </h1>
         </div>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="historia.html">La Escuela</a></li>
+            <li><a href="talleres.html">Talleres</a></li>
+            <li>
+              <a href="inscripcion.html" class="btn-inscribirse">Inscribirme</a>
+            </li>
+          </ul>
+          <!-- Botón para menú en celular (lo veremos luego) -->
+          <div class="menu-toggle">☰</div>
+        </nav>
+      </div>
     </header>
 
     <!-- ===== CONTENIDO PRINCIPAL ===== -->
     <main>
-        <div class="contenedor">
-            <!-- Aquí va el contenido ÚNICO de cada página -->
-            <section class="contenido-texto">
-    <h1>Nuestros Talleres</h1>
-    <div class="grid-talleres">
-        <article class="tarjeta-taller" data-taller="TaiChi_Principiantes"></article>
-        <div class="tarjeta-taller">
-            <h3>Tai Chi Principiantes</h3>
-            <p><strong>Días:</strong> Lunes y Miércoles 18hs</p>
-            <p><strong>Cupos disponibles:</strong> <span class="cupo" id="cupo1">8</span> / 10</p>
-            <a href="inscripcion.html" class="btn-pequeno">Apuntarme</a>
-        </div>
-       </article>
+      <div class="contenedor">
+        <!-- Aquí va el contenido ÚNICO de cada página -->
+        <section class="contenido-texto">
+          <h1>Nuestros Talleres</h1>
+          <div class="grid-talleres">
+            <div class="tarjeta-taller" data-taller="TaiChi_Principiantes">
+              <h3>Tai Chi Principiantes</h3>
+              <p><strong>Días:</strong> Lunes y Miércoles 18hs</p>
+              <p>
+                <strong>Cupos disponibles:</strong>
+                <span class="cupo" id="cupo1">8</span> / 10
+              </p>
+              <a href="inscripcion.html" class="btn-pequeno">Apuntarme</a>
+            </div>
 
-        
-        <div class="tarjeta-taller">
-            <article class="tarjeta-taller" data-taller="TaiChi_Intermedio"></article>
-            <h3>Tai Chi Intermedio</h3>
-            <p><strong>Días:</strong> Martes y Jueves 19hs</p>
-            <p><strong>Cupos disponibles:</strong> <span class="cupo" id="cupo2">3</span> / 10</p>
-            <a href="inscripcion.html" class="btn-pequeno">Apuntarme</a>
-                 </article>
-                 </div>
+            <div class="tarjeta-taller" data-taller="TaiChi_Intermedio">
+              <h3>Tai Chi Intermedio</h3>
+              <p><strong>Días:</strong> Martes y Jueves 19hs</p>
+              <p>
+                <strong>Cupos disponibles:</strong>
+                <span class="cupo" id="cupo2">3</span> / 10
+              </p>
+              <a href="inscripcion.html" class="btn-pequeno">Apuntarme</a>
+            </div>
 
-          <div class="tarjeta-taller">
-        <article class="tarjeta-taller" data-taller="Chi_Kung"></article>
-       
-            <h3>Chi Kung</h3>
-            <p><strong>Día:</strong> Viernes 18hs</p>
-            <p><strong>Cupos disponibles:</strong> <span class="cupo" id="cupo3">10</span> / 10</p>
-            <a href="inscripcion.html" class="btn-pequeno">Apuntarme</a>
-        </article>
-        </div>
-          
-         <div class="tarjeta-taller">
-        <article class="tarjeta-taller" data-taller="TaiChi_Oficinistas"></article>
-        
-            <h3>Tai Chi para oficinistas</h3>
-            <p><strong>Día y Horario:</strong> A confirmar</p>
-            <p><strong>Cupos disponibles:</strong> <span class="cupo" id="cupo4">10</span> / 10</p>
-            <a href="inscripcion.html" class="btn-pequeno">Apuntarme</a>        
-              </article>
-              </div>
-        <!-- Agrega más talleres según tengas -->
-    </div>
-            </section>
-        </div>
+            <div class="tarjeta-taller" data-taller="Chi_Kung">
+              <h3>Chi Kung</h3>
+              <p><strong>Día:</strong> Viernes 18hs</p>
+              <p>
+                <strong>Cupos disponibles:</strong>
+                <span class="cupo" id="cupo3">10</span> / 10
+              </p>
+              <a href="inscripcion.html" class="btn-pequeno">Apuntarme</a>
+            </div>
+
+            <div class="tarjeta-taller" data-taller="TaiChi_Oficinistas">
+              <h3>Tai Chi para oficinistas</h3>
+              <p><strong>Día y Horario:</strong> A confirmar</p>
+              <p>
+                <strong>Cupos disponibles:</strong>
+                <span class="cupo" id="cupo4">10</span> / 10
+              </p>
+              <a href="inscripcion.html" class="btn-pequeno">Apuntarme</a>
+            </div>
+            <!-- Agrega más talleres según tengas -->
+          </div>
+        </section>
+      </div>
     </main>
 
     <!-- ===== PIE DE PÁGINA ===== -->
     <footer>
-        <p>© 2026  Escuela de Tai Chi Yang Ben - Todos los derechos reservados.</p>
+      <p>© 2026 Escuela de Tai Chi Yang Ben - Todos los derechos reservados.</p>
     </footer>
 
     <!-- ===== INTEGRACIÓN DE BOTPRESS (va en TODAS las páginas) ===== -->
-        <script src="https://cdn.botpress.cloud/webchat/v3.7/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2026/07/31/20/20260731205848-A5TSFCWR.js" defer></script>
+    <script src="https://cdn.botpress.cloud/webchat/v3.7/inject.js"></script>
+    <script
+      src="https://files.bpcontent.cloud/2026/07/31/20/20260731205848-A5TSFCWR.js"
+      defer
+    ></script>
 
     <!-- Nuestro script para el menú móvil -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
